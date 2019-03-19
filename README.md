@@ -1,6 +1,6 @@
 # stop light coding challenge
 ## Results
-  - use npm init.
+  - Download the folder and run npm install.
   - Lights change every 5 seconds automatically.
   - Light will go from green to yellow to red.
 # Instructions
