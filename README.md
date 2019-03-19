@@ -1,7 +1,7 @@
 # stop light coding challenge
 ## Results
   - use npm init.
-  - Lights change every 5 seconds.
+  - Lights change every 5 seconds automatically.
   - Light will go from green to yellow to red.
 # Instructions
 ## Create an app with two stoplights using only green and red.
