@@ -1,33 +1,63 @@
-.App {
-  text-align: center;
+.road {
+  position: absolute;
+  background-color: grey;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.horizontal {
+  height: 50px;
+  width: 100%;
+  top: 47%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vertical {
+  height: 100%;
+  width: 50px;
+  left: 47%;
 }
 
-.App-link {
-  color: #61dafb;
+.intersection {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stoplight {
+  position: absolute;
+  height: 100px;
+  width: 50px;
+  background-color: black;
+}
+
+.west {
+  bottom: 56%;
+  right: 66%;
+  transform: rotate(270deg);
+}
+
+.north {
+  bottom: 63%;
+  left: 60%;
+}
+
+.blinker {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 12px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+  top: 70px;
+}
+
+.yellow {
+  background-color: yellow;
+  top: 40px;
+}
+
+.red {
+  background-color: red;
+  top: 10px;
 }
