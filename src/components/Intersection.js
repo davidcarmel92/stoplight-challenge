@@ -43,7 +43,7 @@ class Intersection extends Component {
 
     const { currentDirection, yellow } = this.state;
     return (
-      <div className="intersectionc">
+      <div className="intersection">
         <StopLight lightDirection={"north"} currentDirection={currentDirection} yellow={yellow}></StopLight>
         <StopLight lightDirection={"west"} currentDirection={currentDirection} yellow={yellow}></StopLight>
         <Road direction={"horizontal"}></Road>
